@@ -1,6 +1,8 @@
-# Typescript - todo
+# Challenge-fe-2 : typescript-todo
 
-타입스크립트를 프론트엔드 환경에서 잘 써보고 싶어서 이번 챌린지에 도전했습니다.
+#### 소개
+
+신입 프론트엔드 개발자입니다. 타입스크립트를 프론트엔드 환경에서 잘 써보고 싶어서 이번 챌린지에 도전했습니다.
 
 <a href="https://gist.github.com/pocojang/3c3d4470a3d2a978b5ebfb3f613e40fa">요구사항</a>
 
