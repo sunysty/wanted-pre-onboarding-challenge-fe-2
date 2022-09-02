@@ -23,7 +23,7 @@ const addTodo = (content, category, tags) => {};
 @description 모든 할 일을 조회
 @returns {Todo[]}
 
-  const getTodo = (id) => {};
+const getTodo = (id) => {};
 ```
 
 ```
@@ -38,21 +38,21 @@ const getTodoById = (id) => {};
 #### UPDATE
 
 ```
-- @function updateTodo
-- @param {number} id - 아이디
-- @todo 특정 할 일의 특정 태그를 수정
-- @todo ID를 제외한 모든 속성을 수정
+@function updateTodo
+@param {number} id - 아이디
+@todo 특정 할 일의 특정 태그를 수정
+@todo ID를 제외한 모든 속성을 수정
 
-  const updateTodo = (id) => {};
+const updateTodo = (id) => {};
 ```
 
 #### DELETE
 
 ```
-- @function deleteId
-- @todo 모든 할 일을 제거
+@function deleteId
+@todo 모든 할 일을 제거
 
-  const deleteTodo = () => {};
+const deleteTodo = () => {};
 ```
 
 ```
@@ -62,7 +62,7 @@ const getTodoById = (id) => {};
 @todo 특정 할 일의 특정 태그를 삭제
 @todo 특정 할 일의 모든 태그를 제거
 
-  const deleteTodoById = (id) => {};
+const deleteTodoById = (id) => {};
 ```
 
 #### Modeling (Shape)
