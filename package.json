@@ -1,0 +1,17 @@
+{
+  "name": "wanted-pre-onboarding-challenge-fe-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.config.json",
+    "predeploy": "yarn docs",
+    "deploy": "gh-pages -d docs"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.11"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

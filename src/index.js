@@ -1,0 +1,55 @@
+/** CREATE
+ * @function addTodo
+ * @description  할 일을 추가할 수 있다.
+ * @param {string} content - 내용
+ * @param {string} category - 카테고리
+ * @param {string[]} tags - 태그들(optional)
+ */
+const addTodo = (content, category, tags) => {};
+
+/** READ
+ * @function getTodoById
+ * @description 모든 할 일을 조회
+ * @returns {Todo[]}
+ */
+const getTodo = (id) => {};
+
+/**
+ * @function getTodo
+ * @description ID를 기반으로 특정 할 일을 조회
+ * @param {number} id - 아이디
+ * @returns {Todo}
+ */
+const getTodoById = (id) => {};
+
+/** UPDATE
+ * @function updateTodo
+ * @param {number} id - 아이디
+ * @todo 특정 할 일의 특정 태그를 수정
+ * @todo ID를 제외한 모든 속성을 수정
+ */
+const updateTodo = (id) => {};
+
+/** DELETE
+ * @function deleteId
+ * @todo 모든 할 일을 제거
+ */
+const deleteTodo = () => {};
+
+/**
+ * @function deleteTodoById
+ * @param {number} id - 아이디
+ * @todo ID를 기반으로 특정 할 일을 삭제
+ * @todo 특정 할 일의 특정 태그를 삭제
+ * @todo 특정 할 일의 모든 태그를 제거
+ */
+const deleteTodoById = (id) => {};
+
+/** Modeling (Shape)
+ * @typedef {Object} Todo
+ * @property {number} id - 아이디
+ * @property {string} content - 내용
+ * @property {boolean} complete - 완료 여부
+ * @property {string} category - 카테고리
+ * @property {string} tags - 태그들(optional)
+ */
