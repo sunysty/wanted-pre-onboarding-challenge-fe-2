@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sunysty.github.io/wanted-pre-onboarding-challenge-fe-2",
   "scripts": {
     "docs": "jsdoc -c jsdoc.config.json",
-    "predeploy": "yarn docs",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d docs"
   },
   "devDependencies": {
